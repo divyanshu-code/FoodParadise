@@ -1,0 +1,170 @@
+@import "tailwindcss";
+
+*{
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    color: inherit;
+}
+#button{
+   
+    cursor: pointer;
+      
+}
+
+#button:hover{
+    background-color: #fff4f2;    
+}
+
+.active {
+    padding-bottom: 2px;
+    border-bottom: 2px solid #49557e;
+}
+
+.dot{
+    position: absolute;
+    background-color: rgb(255, 38, 0);
+    min-width: 10px;
+    min-height: 10px;
+    border-radius: 5px;
+    top: 1px;
+    right: 1px;
+}
+
+.Active{
+        
+    padding: 3px;
+       border: 3px solid red;
+}
+#neo::-webkit-scrollbar{
+       display: none;
+}
+
+#neo {
+    scroll-padding-left: 1rem;
+  }
+  
+::-webkit-scrollbar{
+    display: none   ;
+}
+
+#head {
+    margin: 10px auto;
+    position: relative;
+    border-radius: 10px;
+    color: #fff4f2;
+    padding: 15px;
+    max-width: 90%;
+}
+
+
+.back{
+    height: 34vw;
+    border-radius: 10px;
+}
+
+#image{
+    width: 7.5vw;
+    min-width: 100px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+.footer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+    padding: 20px;
+}
+
+.upperfooter{
+    display: flex;
+    flex-direction: column;
+    background-color: #323232;
+    align-items: center;
+    padding: 20px 5vw;
+    padding-top: 60px;
+    gap: 20px;
+    color: aliceblue;
+    margin-top: 80px;
+}
+
+.play{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.play img{
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.play img:hover{
+    transform: scale(1.05);
+}
+
+.ww{
+    padding: 12px 0px;
+    width: max(15vw , 150px);
+    font-size: small;
+    font-weight: 700;
+    border: none;
+    background-color: red;
+    color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.aa input{
+    margin-top: 20px;
+    border-radius: 4px;
+    padding: 5px;
+    border: 1px solid gray;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 500;
+    outline-color: red;
+}
+
+#hlo{
+
+     animation: fadein 3s;  
+}
+
+
+.playstore{
+
+       display: flex;
+       gap: 10px;
+       margin-top: 10px;
+}
+
+.playstore img:hover{
+
+      transform: scale(1.05);
+      cursor: pointer;
+      transition: 0.5s;
+}
+
+#check:hover{
+
+     transform: scale(1.05);
+     cursor: pointer;
+     transition: 0.5s;
+}
+
+#log{
+
+    background-color: #00000090;
+    
+}
