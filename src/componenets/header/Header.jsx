@@ -36,7 +36,7 @@ const Header = ({ login, cart }) => {
             </Link>
             {total() > 0 && <div className='dot'></div>}
           </div>
-          <button onClick={() => login(true)} className='border-2 border-red-200 px-5 py-2 rounded-xl hover:bg-red-200 hover:text-white transition-all' id='button'>
+          <button onClick={() => login(true)} className='border-2 border-red-500 px-5 py-2 rounded-xl hover:bg-red-500 hover:text-white transition-all' id='button'>
             Sign In
           </button>
         </div>
